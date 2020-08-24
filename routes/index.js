@@ -6,7 +6,7 @@ const router = express.Router();
 const { Record } = require('../models/models');
 
 /**
- * TODO (IMPROVEMENT): add a timestamp value in req.query to view route status at a given time
+ * @param req.query.route Route name to find current status
  */
 router.get('/status', function (req, res, next) {
 	if (req.query.route) {
@@ -37,6 +37,9 @@ router.get('/status', function (req, res, next) {
 	}
 });
 
+/**
+ * @param req.query.route Route name to find uptime
+ */
 router.get('/uptime', function (req, res, next) {
 	if (req.query.route) {
 		Record.findAll({
