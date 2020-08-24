@@ -49,4 +49,4 @@ Create a web service to monitor the MTA's subway routes
 - PostgreSQL
 
 ## Author
-Brian Nguyen - <a href="https://www.briannguyen.dev" target="_blank">Website</a> | <a href="https://github.com/bnguyen212" target="_blank">GitHub</a> | <a href="https://www.linkedin.com/in/brian-trong-nguyen/" target="_blank">LinkedIn</a>
+Brian Nguyen - <a href="https://briannguyen.dev" target="_blank">Website</a> | <a href="https://github.com/bnguyen212" target="_blank">GitHub</a> | <a href="https://www.linkedin.com/in/brian-trong-nguyen/" target="_blank">LinkedIn</a>
