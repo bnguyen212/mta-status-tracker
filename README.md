@@ -22,7 +22,7 @@ Create a web service to monitor the MTA's subway routes
     delayed: false,
     timestamp: "2020-08-24T08:34:55-04:00"
   }
-```
+  ```
 
 
 #### `/uptime`
