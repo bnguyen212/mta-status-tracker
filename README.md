@@ -23,6 +23,7 @@ Create a web service to monitor the MTA's subway routes
     timestamp: "2020-08-24T08:34:55-04:00"
   }
   ```
+  **NOTE**: `timestamp` refers to when the subway route last switched to this `delayed` status
 
 
 #### `/uptime`
@@ -41,6 +42,7 @@ Create a web service to monitor the MTA's subway routes
     end: "2020-08-24T17:32:29-04:00"
   }
   ```
+  **NOTE**: `start` refers to the earliest record available in the database, `end` refers to a moment between the time the request was made and the time the server responded
 
 
 ## Tech
