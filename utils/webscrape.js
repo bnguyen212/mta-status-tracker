@@ -31,6 +31,7 @@ const checkStatusChange = (routeName, currentlyDelayed) => {
 };
 
 const grabData = () => {
+	console.log('Scraping the page at ', new Date());
 	engine
 		.goto(MTA_URL)
 		.evaluate(() => document.body.innerHTML)
