@@ -28,7 +28,7 @@ Type `npm start` in the terminal to start running the app locally, which you can
 
 - Method: `GET`
 
-- Required Query: `route=[alphanumeric]`
+- Required Query: `route=[alphanumeric]` (case senstive)
 
 - Sample Success Response:
 
@@ -46,7 +46,7 @@ Type `npm start` in the terminal to start running the app locally, which you can
 
 - Method: `GET`
 
-- Required Query: `route=[alphanumeric]`
+- Required Query: `route=[alphanumeric]` (case senstive)
 
 - Sample Success Response:
 
