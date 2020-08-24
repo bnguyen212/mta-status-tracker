@@ -1,12 +1,26 @@
 # MTA SUBWAY STATUS TRACKER
 
-https://mta-status-tracker.herokuapp.com/
-
-___Note___: there might be some inconsistency in the response because Heroku's free tier puts the servver to sleep after being idle for some time
-
 ### Objective
 
 Create a web service to monitor the MTA's subway routes
+
+## Installation
+
+To run this app locally on your machine, clone this repository and create an `.env` file in the main directory
+
+```
+$ git clone git@github.com:bnguyen212/mta-status-tracker.git
+$ cd mta-status-tracker
+$ npm install
+$ touch .env
+```
+
+You will also need to have access to your own PostgreSQL database. Put your DB credentials in the `.env` file in the following format:
+```
+DATABASE_URL='postgres://username:password@example.com:5432/dbname'
+```
+
+Type `npm start` in the terminal to start running the app locally
 
 ## Endpoints
 
