@@ -2,6 +2,8 @@
 
 https://mta-status-tracker.herokuapp.com/
 
+___Note___: deploying on Heroku's free tier may causes some inconsistency in the response because the servver is put to sleep after being idle for some time.
+
 ### Objective
 
 Create a web service to monitor the MTA's subway routes
