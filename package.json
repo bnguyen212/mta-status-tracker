@@ -3,7 +3,8 @@
 	"version": "0.0.0",
 	"private": true,
 	"scripts": {
-		"start": "node ./bin/www"
+		"start": "node ./bin/www",
+		"test": "mocha"
 	},
 	"dependencies": {
 		"cheerio": "^1.0.0-rc.3",
@@ -18,5 +19,10 @@
 		"pg-hstore": "^2.3.3",
 		"request": "^2.88.2",
 		"sequelize": "^6.3.4"
+	},
+	"devDependencies": {
+		"chai": "^4.2.0",
+		"chai-http": "^4.3.0",
+		"mocha": "^8.1.1"
 	}
 }
