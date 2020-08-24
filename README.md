@@ -37,8 +37,8 @@ Create a web service to monitor the MTA's subway routes
   {
     route: "4",
     uptime: 0.7704990038659492,
-    start: "2020-08-24T10:03:56.878Z",
-    end: "2020-08-24T21:01:49.979Z"
+    start: "2020-08-24T06:03:56-04:00",
+    end: "2020-08-24T17:32:29-04:00"
   }
   ```
 
