@@ -20,7 +20,7 @@ You will also need to have access to your own PostgreSQL database. Put your DB c
 DATABASE_URL='postgres://username:password@example.com:5432/dbname'
 ```
 
-Type `npm start` in the terminal to start running the app locally
+Type `npm start` in the terminal to start running the app locally, which you can access at `localhost:3000`
 
 ## Endpoints
 
